@@ -3,5 +3,7 @@ from .views import *
 
 urlpatterns = [
     path('autores', AutoresView.as_view()),
-    path('authors', list_autores)
+    path('editora', EditoraView.as_view()),
+    path('livros', LivrosView.as_view())
+
 ]
